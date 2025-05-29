@@ -1036,7 +1036,9 @@
     <comp lib="4" loc="(470,380)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 8
-a0 b0 a2 cd cf 97 8b
+df c8 cc 55 5a 33 49 21
+36 79 9e d5 b4 c9 cd 55
+31 59 20 39 71
 </a>
       <a name="label" val="MemInstrucao"/>
       <a name="labelvisible" val="true"/>
@@ -1742,7 +1744,7 @@ a0 b0 a2 cd cf 97 8b
       <a name="label" val="B"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(410,230)" name="Constant">
+    <comp lib="0" loc="(410,210)" name="Constant">
       <a name="value" val="0x0"/>
       <a name="width" val="8"/>
     </comp>
@@ -1754,7 +1756,7 @@ a0 b0 a2 cd cf 97 8b
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="0" loc="(490,220)" name="Pin">
+    <comp lib="0" loc="(490,200)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="Zero"/>
@@ -1817,17 +1819,13 @@ a0 b0 a2 cd cf 97 8b
       <a name="select" val="2"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="3" loc="(470,220)" name="Comparator"/>
+    <comp lib="3" loc="(470,200)" name="Comparator"/>
     <comp lib="3" loc="(470,330)" name="Adder"/>
     <comp lib="3" loc="(470,450)" name="Subtractor"/>
-    <comp lib="5" loc="(490,190)" name="LED"/>
-    <comp lib="5" loc="(490,250)" name="LED"/>
+    <comp lib="5" loc="(490,170)" name="LED"/>
+    <comp lib="5" loc="(490,230)" name="LED"/>
     <comp lib="5" loc="(490,360)" name="LED"/>
     <comp lib="5" loc="(490,480)" name="LED"/>
-    <comp lib="8" loc="(425,190)" name="Text">
-      <a name="font" val="SansSerif bold 14"/>
-      <a name="text" val="Comparador"/>
-    </comp>
     <comp lib="8" loc="(445,395)" name="Text">
       <a name="text" val="A - B"/>
     </comp>
@@ -1837,9 +1835,9 @@ a0 b0 a2 cd cf 97 8b
     <comp lib="8" loc="(450,275)" name="Text">
       <a name="text" val="A + B"/>
     </comp>
-    <wire from="(270,160)" to="(270,210)"/>
-    <wire from="(270,210)" to="(270,320)"/>
-    <wire from="(270,210)" to="(430,210)"/>
+    <wire from="(270,160)" to="(270,190)"/>
+    <wire from="(270,190)" to="(270,320)"/>
+    <wire from="(270,190)" to="(430,190)"/>
     <wire from="(270,320)" to="(270,440)"/>
     <wire from="(270,320)" to="(430,320)"/>
     <wire from="(270,440)" to="(270,530)"/>
@@ -1853,23 +1851,23 @@ a0 b0 a2 cd cf 97 8b
     <wire from="(360,460)" to="(430,460)"/>
     <wire from="(360,570)" to="(360,590)"/>
     <wire from="(360,570)" to="(420,570)"/>
-    <wire from="(410,230)" to="(430,230)"/>
+    <wire from="(410,210)" to="(430,210)"/>
     <wire from="(450,300)" to="(450,310)"/>
     <wire from="(450,350)" to="(450,360)"/>
     <wire from="(450,360)" to="(490,360)"/>
     <wire from="(450,420)" to="(450,430)"/>
     <wire from="(450,470)" to="(450,480)"/>
     <wire from="(450,480)" to="(490,480)"/>
+    <wire from="(470,190)" to="(480,190)"/>
+    <wire from="(470,200)" to="(490,200)"/>
     <wire from="(470,210)" to="(480,210)"/>
-    <wire from="(470,220)" to="(490,220)"/>
-    <wire from="(470,230)" to="(480,230)"/>
     <wire from="(470,330)" to="(580,330)"/>
     <wire from="(470,450)" to="(580,450)"/>
     <wire from="(470,550)" to="(580,550)"/>
-    <wire from="(480,190)" to="(480,210)"/>
-    <wire from="(480,190)" to="(490,190)"/>
-    <wire from="(480,230)" to="(480,250)"/>
-    <wire from="(480,250)" to="(490,250)"/>
+    <wire from="(480,170)" to="(480,190)"/>
+    <wire from="(480,170)" to="(490,170)"/>
+    <wire from="(480,210)" to="(480,230)"/>
+    <wire from="(480,230)" to="(490,230)"/>
     <wire from="(670,330)" to="(690,330)"/>
     <wire from="(670,360)" to="(680,360)"/>
     <wire from="(670,410)" to="(680,410)"/>
