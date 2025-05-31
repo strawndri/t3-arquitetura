@@ -1,11 +1,9 @@
 movl 12         ; r0 = 12
 add 1, 0        ; r1 = 12
-movh 1
-movl 1
+movl 5
 add 3, 0
 
 loop_cria:
-    brzr 1, 3
     movh 0      ;r0 = 1
     movl 1      
     sub 1, 0    ; r1 - 1
@@ -19,5 +17,15 @@ loop_cria:
     st 1, 2     ; M[r2] = r1
     movl 11     
     sub 2, 0    ; r2 - 11
-    ji -12
+    not 0, 1    ; if r1 == 0 -> r0 = 1
+    brzr 0, 3   ;
 
+    sub 2, 2    ; r2 = 0
+    movl 12
+
+loop_soma:
+    ld 1, 2
+    add 2, 0
+    ld 0, 2
+    add 1, 0
+    add 2, 
