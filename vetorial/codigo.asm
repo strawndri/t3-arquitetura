@@ -55,3 +55,24 @@ loop_B:
     s.movl 13
     s.movh 1
     s.brzr r0, r1
+
+s.movl 3
+s.movh 0
+
+v.sub r3, r3
+
+loop_R:
+    s.movl 8
+    s.movh 3
+    s.brzr r2, r1
+
+    v.st r3, r2
+    v.add r2, r1
+
+    s.movl 1
+    s.movh 0
+    s.sub r2, r1
+
+    s.movl 13
+    s.movh 2
+    s.brzr r0, r1
