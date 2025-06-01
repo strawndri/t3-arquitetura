@@ -34,7 +34,7 @@ cria_b:
 
     sub 2, 2
     movh 0
-    movl 12
+    movl 11
     add 2, 0
 
 loop_soma:
