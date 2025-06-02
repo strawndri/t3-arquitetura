@@ -904,6 +904,11 @@
       <a name="labelfont" val="SansSerif bold 9"/>
       <a name="width" val="2"/>
     </comp>
+    <comp lib="0" loc="(500,990)" name="Probe">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="10signed"/>
+    </comp>
     <comp lib="0" loc="(510,960)" name="Probe">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
@@ -1014,15 +1019,19 @@
     </comp>
     <comp lib="4" loc="(1920,150)" name="RAM">
       <a name="appearance" val="classic"/>
+      <a name="asyncread" val="true"/>
     </comp>
     <comp lib="4" loc="(1920,370)" name="RAM">
       <a name="appearance" val="classic"/>
+      <a name="asyncread" val="true"/>
     </comp>
     <comp lib="4" loc="(1920,590)" name="RAM">
       <a name="appearance" val="classic"/>
+      <a name="asyncread" val="true"/>
     </comp>
     <comp lib="4" loc="(1920,810)" name="RAM">
       <a name="appearance" val="classic"/>
+      <a name="asyncread" val="true"/>
     </comp>
     <comp lib="4" loc="(340,360)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
@@ -1032,8 +1041,14 @@
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 8
 d5 da df 55 5a 5f c8 cc
-b4 33 49 38 21 79 9e c9
-cd 31 20 59 3c 20 71
+b4 33 49 37 21 79 9e c9
+cd 31 20 59 3b 20 71 33
+20 49 b8 cd b4 39 22 79
+9e c9 cd 31 20 59 3d 21
+71 33 20 49 df 38 23 79
+9e c9 31 20 59 3d 22 71
+33 20 49 da c8 3f 24 79
+8e bc c9 86
 </a>
       <a name="label" val="MemInstrucao"/>
       <a name="labelvisible" val="true"/>
@@ -1356,9 +1371,12 @@ cd 31 20 59 3c 20 71
     <wire from="(460,830)" to="(480,830)"/>
     <wire from="(460,850)" to="(480,850)"/>
     <wire from="(460,870)" to="(480,870)"/>
-    <wire from="(460,890)" to="(480,890)"/>
+    <wire from="(460,890)" to="(470,890)"/>
     <wire from="(460,910)" to="(480,910)"/>
     <wire from="(460,930)" to="(480,930)"/>
+    <wire from="(470,890)" to="(470,990)"/>
+    <wire from="(470,890)" to="(480,890)"/>
+    <wire from="(470,990)" to="(500,990)"/>
     <wire from="(480,930)" to="(480,960)"/>
     <wire from="(480,930)" to="(490,930)"/>
     <wire from="(480,960)" to="(510,960)"/>
