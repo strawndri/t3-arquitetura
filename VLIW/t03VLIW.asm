@@ -23,8 +23,8 @@ cria_a:
 cria_b:
     st 1, 2
     sub 3, 0
-    add 2, 0
-    add 1, 0
+    inc 2
+    inc 1
     movh 1
     movl 8
     brzr 3, 0
@@ -48,7 +48,7 @@ loop_soma:
     movh 1
     movl 9
     sub 2, 0
-    isZero 3, 1
+    not 3, 1
     movl 12
     brzr 3, 0
 
