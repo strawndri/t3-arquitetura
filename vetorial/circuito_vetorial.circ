@@ -2007,7 +2007,7 @@ ea 31 20 59 fe 35 22 7d
     <comp lib="0" loc="(720,380)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
-      <a name="label" val="Funct"/>
+      <a name="label" val="Op"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(760,310)" name="Pin">
