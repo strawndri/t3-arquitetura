@@ -1147,11 +1147,11 @@ ea 31 20 59 fe 35 22 7d
     </comp>
     <comp lib="5" loc="(1620,1220)" name="LED"/>
     <comp lib="5" loc="(1620,1280)" name="LED"/>
-    <comp lib="8" loc="(1217,1555)" name="Text">
+    <comp lib="8" loc="(1215,1555)" name="Text">
       <a name="font" val="SansSerif bold 22"/>
       <a name="text" val="PE - Escalar"/>
     </comp>
-    <comp lib="8" loc="(1241,103)" name="Text">
+    <comp lib="8" loc="(1240,100)" name="Text">
       <a name="font" val="SansSerif bold 22"/>
       <a name="text" val="PEs - Vetorial"/>
     </comp>
@@ -2040,7 +2040,7 @@ ea 31 20 59 fe 35 22 7d
     <comp lib="8" loc="(450,195)" name="Text">
       <a name="text" val="A + B"/>
     </comp>
-    <comp lib="8" loc="(529,567)" name="Text">
+    <comp lib="8" loc="(525,565)" name="Text">
       <a name="text" val="not B"/>
     </comp>
     <wire from="(310,150)" to="(320,150)"/>

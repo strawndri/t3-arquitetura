@@ -77,6 +77,6 @@ loop_soma:
     s.movh 2       ; SR[1] = 0010 0101 (37)
     s.brzr r3, r1  ; se r3 == 0, volta para inst. 37
 
-s.movl 7           ; SR[1] = 0010 1111 (47)
-s.movh 3           ; SR[1] = 0011 1111 (63)
-s.brzr r0, r1      ; "break", retorna à inst. 63
+s.movl 10          ; SR[1] = 0010 1010 (42)
+s.movh 3           ; SR[1] = 0011 1010 (58)
+s.brzr r0, r1      ; halt
